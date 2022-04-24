@@ -1,0 +1,54 @@
+.contentsPanel {
+	border: 1px solid #a2a9b1;
+	background-color: #f8f9fa;
+	padding: 5px;
+	font-size: 95%;
+	position: relative;
+	line-height: 1.7em;
+	width: 280px;
+    margin-left: 15px;
+}
+.contentsHeader {
+	font-family: sans-serif;
+	font-weight: bold;
+	text-align: center;
+}
+h1, h2, h3, h4{
+    border-bottom: 1px solid black;
+}
+/* h1, h2, h3, h4, h5, h6 {
+	color: #000;
+	background: none;
+	font-weight: normal;
+	margin: 0;
+	overflow: hidden;
+	padding-top: 0.5em;
+	padding-bottom: 0.17em;
+} */
+.lavenderBox {
+	background: #fdfdfd;
+	border: 1px solid #a2a9b1;
+	clear: both;
+	font-size: 88%;
+	text-align: center;
+	padding: 3px;
+	line-height: 1.7em;
+	margin: 1em auto 0;
+}
+.lavenderBox .header {
+	background: #ccccff;
+	padding: 0.25em 1em;
+	line-height: 1.5em;
+	text-align: center;
+	font-weight: bold;
+	color: #0645ad;
+	font-size: 115%;
+	margin-bottom: 3px;
+}
+.lavenderBox .subtitle {
+	background: #ddddff;
+}
+.linklist a:after {
+	content: " · ";
+	font-weight: bold;
+}
