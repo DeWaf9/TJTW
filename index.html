@@ -12,6 +12,15 @@
 <link rel="icon" type="image/x-icon" href="../../2favicon.ico">
 <style>
 html,body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
+.w3-red:hover{
+        background-color: #f66055 !important;
+    }
+    .w3-blue:hover{
+        background-color: #3da2f5 !important;
+    }
+    .w3-green:hover{
+        background-color: #5fb962 !important;
+    }
 </style>
 </head>
 <body class="w3-light-grey">
@@ -67,7 +76,7 @@ html,body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
   <header class="w3-container" style="padding-top:22px;"> <h2><b>1 - Synopsis</b></h2></header>
 
   <div class="w3-container w3-clear">
-    Brief overview of the story or maybe just an intro
+    <p>Brief overview or summary of each 'chapter' of the story.</p>
   </div>
 
   <span id="Locales"></span>
@@ -75,9 +84,9 @@ html,body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
   <header class="w3-container" style="padding-top:22px;"> <h2><b>2 - Locales</b></h2></header>
 
   <div class="w3-container w3-clear">
-    Maps of Sharn & information from the "Sharn-Wards-Districts-Places" handout, maybe some other locations if neccessary?
-    <br><br>
-    <a href="https://eberronmap.johnarcadian.com/sharncityoftowers/">https://eberronmap.johnarcadian.com/sharncityoftowers/</a>
+    <p>Maps of Sharn & information from the "Sharn-Wards-Districts-Places" handout, maybe some other locations if neccessary?</p>
+    
+    <p>A nice (if a bit slow) interactive map of Sharn can be found <a href="https://eberronmap.johnarcadian.com/sharncityoftowers/">here</a>. It's useful to measure distances in a pinch & also has a map of the Eberron globe.</p>
   </div>
 
   <span id="PCs"></span>
@@ -85,21 +94,30 @@ html,body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
   <header class="w3-container" style="padding-top:22px;"> <h2><b>3 - PCs</b></h2></header>
 
   <div class="w3-container w3-clear">
-    Links to character sheets on D&D Beyond, probably not much else?
 
-    <div class="w3-row-padding w3-margin-bottom">
-      <a href="https://www.dndbeyond.com/characters/27660221"><div class="w3-third w3-red" style="padding: 12px;">
-        <div class="w3-left"><img src="benji.jpg" alt="A Lovely Gnome" width="128" height="128"></div>
-        <div class="w3-center"><h3 style="text-decoration:none!important;">Benji Beren</h2></div>
-      </div></a>
-      <a href="https://www.dndbeyond.com/characters/34724757"><div class="w3-third w3-green" style="padding: 12px;">
-        <div class="w3-left"><img src="ivy.jpg" alt="A Lost Soul" width="128" height="128"></div>
-        <div class="w3-center"><h3 style="text-decoration:none!important;">Ivy</h2></div>
-      </div></a>
-      <a href="https://www.dndbeyond.com/characters/27903091" style="text-decoration:none!important;"><div class="w3-third w3-blue" style="padding: 12px;">
-        <div class="w3-left"><img src="mia.jpg" alt="A Desperate Addict" width="128" height="128"></div>
-        <div class="w3-center"><h3>Mia Silverkin</h2></div>
-      </div></a>
+    <!--<p>Links to character sheets on D&D Beyond? I don't think a link to the campaign page is neccessary?</p> -->
+
+    <div class="w3-row-padding w3-margin"><!-- I hate this. But it works.-->
+      <div class="w3-third" style="padding:0px 16px">
+        <a href="https://www.dndbeyond.com/characters/27660221" style="text-decoration:none!important;"><div class="w3-red" style="padding:8px; height:86px; margin:12px; border:2px solid black;">
+          <div class="w3-left" style="height:66px;border:1px solid white"><img src="benji.jpg" alt="A Lovely Gnome" width="64px" height="64px"></div>
+          <div class="w3-center"><h3>Benji Beren</h3></div>
+        </div></a>
+      </div>
+      <div class="w3-third" style="padding:0px 16px">
+        <a href="https://www.dndbeyond.com/characters/34724757" style="text-decoration:none!important;"><div class="w3-green" style="padding:8px; height:86px; margin:12px; border:2px solid black;">
+          <div class="w3-left" style="height:66px;border:1px solid white;"><img src="ivy.jpg" alt="A Lost Soul" width="64px" height="64px"></div>
+          <div class="w3-center"><h3>Ivy</h3></div>
+        </div></a>
+      </div>
+      <div class="w3-third" style="padding:0px 16px">
+        <a href="https://www.dndbeyond.com/characters/27903091" style="text-decoration:none!important;"><div class="w3-blue" style="padding:8px; height:86px; margin:12px; border:2px solid black;">
+          <div class="w3-left" style="height:66px;border:1px solid white"><img src="mia.jpg" alt="A Desperate Addict" width="64px" height="64px"></div>
+          <div class="w3-center"><h3>Mia Silverkin</h3></div>
+        </div></a>
+      </div>
+    </div>
+
   </div>
 
   <span id="NPCs"></span>
@@ -107,7 +125,7 @@ html,body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
   <header class="w3-container" style="padding-top:22px;"> <h2><b>4 - NPCs & Factions</b></h2></header>
 
   <div class="w3-container w3-clear">
-    Short description of <b>SOME</b> NPCs and/or factions that may come in handy as the story progresses!
+    <p>Short description of SOME NPCs and/or factions that may come in handy as the story progresses!</p>
   </div>
 
   <span id="Journals"></span>
@@ -115,7 +133,7 @@ html,body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
   <header class="w3-container" style="padding-top:22px;"> <h2><b>5 - Journals & Handouts</b></h2></header>
 
   <div class="w3-container w3-clear">
-    Link to a google drive to handouts, but only the ones that all PCs have? This section might be too hard to do/maintain? Also links to player's journals?
+    <p>Link to a google drive to handouts, but only the ones that all PCs have? This section might be difficult to maintain? Also links to player's journals?</p>
   </div>
 
   <span id="Quest"></span>
@@ -123,7 +141,16 @@ html,body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
   <header class="w3-container" style="padding-top:22px;"> <h2><b>6 - Quest Tracker</b></h2></header>
 
   <div class="w3-container w3-clear">
-    Just a link (or maybe an embedded doc?) to a quest tracker spreadsheet, if this section exists at all
+    <p>Just a link (or maybe an embedded doc?) to the quest tracker spreadsheet</p>
+    
+    <p>The embedded google sheet seems to update on a cache clear (ie, not just a reload of the page). At least this sheet won't change very often</p>
+    
+    <p>Test Embedded Google Sheet:</p>
+    <button class="collapsible">Quest Tracker</button>
+    <div class="content">
+      <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRnpEgXGeM4jyyaeBVZOM0BSsaW3lwquyM_G6LJxSd3KuN_NtK4FT-Jd6ULXE0y2AqMlxlECtGXuiwX/pubhtml?widget=true&amp;headers=false" width="100%" height="800px"></iframe>
+    </div>
+
   </div>
 
   <span id="Equipment"></span>
@@ -131,7 +158,14 @@ html,body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
   <header class="w3-container" style="padding-top:22px;"> <h2><b>7 - Custom Equipment & Rules</b></h2></header>
 
   <div class="w3-container w3-clear">
-    Text copy-pasted from custom rule or content documents like: drugs & addiction, Expanded Equipment, Large-scale combat, & even small things like duelling rules
+    <p>Text copy-pasted, or an embedded page from custom rule or content documents like: drugs & addiction, Expanded Equipment, Large-scale combat, & even small things like dueling rules.</p>
+    
+    <p>Here's an embedded Excel spreadsheet of Combat Equipment & Adventuring Gear combined, and saved as a html. Alternatively, you can click <a href="https://liamserver.ddns.net/wiki/TJTW/equipment/">here</a> to go to that page.</p>
+    <button class="collapsible">Combine Equipment</button>
+    <div class="content">
+      <iframe src="https://liamserver.ddns.net/wiki/TJTW/equipment/" width="100%" height="800px"></iframe>
+    </div>
+    
   </div>
 
   <div class="lavenderBox">
@@ -171,6 +205,22 @@ function w3_open() {
 function w3_close() {
   mySidebar.style.display = "none";
   overlayBg.style.display = "none";
+}
+
+//Controls collapsibles. Copied from https://www.w3schools.com/howto/howto_js_collapsible.asp
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    } 
+  });
 }
 </script>
 
